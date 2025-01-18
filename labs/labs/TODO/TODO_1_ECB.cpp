@@ -4,6 +4,9 @@
 #include <openssl/aes.h>
 #include <crtdbg.h>
 
+// TODO: switch to binary and text files for key, plaintext and ciphertext
+// TODO: update implementation for key_192 and key_256
+
 int main()
 {
 	FILE* f;

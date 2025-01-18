@@ -15,6 +15,16 @@
 
 int main()
 {
+	//1. Decrypt the files privateKey_1.enc, privateKey_2.enc and 
+	// privateKey_3.enc to restore 3 RSAprivate keys by considering :
+	// - AES - ECB as crypto algorithm for decryption.
+	// - AES - ECB key in hex format :
+	// 0xff, 0xff, 0xff, 0xff, 0x01, 0x02, 0x03, 0x04, 
+	// 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 0x11, 0x12
+	// - RSA private key size is 1024 bits.
+	// - RSA private keys are in PEM format.
+	// - The actual size of each PEM RSA restored key file is 887 bytes.
+
 	AES_KEY aes_key;
 	unsigned char key[] = { 0xff, 0xff, 0xff, 0xff, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 0x11, 0x12 };
 	
@@ -46,7 +56,10 @@ int main()
 		fclose(f);
 		free(decrypted);
 
-
+		//2. Use each PEM RSA restored private key to sign the plaintext 
+		// in.txt by considering : (2p) :
+		// - Message digest algorithm is SHA - 256.
+		// - Padding type is RSA_PKCS1_PADDING.
 		FILE* f = fopen("EXAM_IUN/in.txt", "r");
 		fseek(f, 0, SEEK_END);
 		size_t msgLen = ftell(f);
@@ -63,6 +76,11 @@ int main()
 		SHA256_Final(computed_SHA, &ctx);
 
 		free(buffer);
+
+		//3. Use the signature stored by eSign.sig to identify the right 
+		// RSA private key used to generate it.Print out the information 
+		// regarding the RSA private key used to generate eSign.sig. (0,5p)
+
 		RSA* rsa;
 		f = fopen(fileName, "r");
 		rsa = PEM_read_RSAPrivateKey(f, NULL, NULL, NULL);
