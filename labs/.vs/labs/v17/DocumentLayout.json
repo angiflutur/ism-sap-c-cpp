@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|solutionrelative:labs\\DAY3\\ex37_SHA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex37_SHA3.cpp",
+              "DocumentMoniker": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp",
+              "RelativeDocumentMoniker": "labs\\DAY3\\ex37_SHA3.cpp",
+              "ToolTip": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp",
+              "RelativeToolTip": "labs\\DAY3\\ex37_SHA3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T09:46:30.323Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
