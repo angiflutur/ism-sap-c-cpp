@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|solutionrelative:labs\\DAY3\\ex37_SHA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_2024\\ianuarie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C81C401-4726-44DC-B3FA-D47C2DF51922}|labs\\labs.vcxproj|solutionrelative:labs\\EXAM_2024\\ianuarie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY2\\day2_ex35_RSA_verify.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:labs\\DAY2\\day2_ex35_RSA_verify.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_IUN\\iunie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:labs\\EXAM_IUN\\iunie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ex37_SHA3.cpp",
-              "DocumentMoniker": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp",
-              "RelativeDocumentMoniker": "labs\\DAY3\\ex37_SHA3.cpp",
-              "ToolTip": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY3\\ex37_SHA3.cpp",
-              "RelativeToolTip": "labs\\DAY3\\ex37_SHA3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "day2_ex35_RSA_verify.cpp",
+              "DocumentMoniker": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY2\\day2_ex35_RSA_verify.cpp",
+              "RelativeDocumentMoniker": "labs\\DAY2\\day2_ex35_RSA_verify.cpp",
+              "ToolTip": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\DAY2\\day2_ex35_RSA_verify.cpp",
+              "RelativeToolTip": "labs\\DAY2\\day2_ex35_RSA_verify.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-31T09:46:30.323Z",
+              "WhenOpened": "2025-01-31T12:27:05.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ianuarie.cpp",
+              "DocumentMoniker": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_2024\\ianuarie.cpp",
+              "RelativeDocumentMoniker": "labs\\EXAM_2024\\ianuarie.cpp",
+              "ToolTip": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_2024\\ianuarie.cpp*",
+              "RelativeToolTip": "labs\\EXAM_2024\\ianuarie.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T12:25:47.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "iunie.cpp",
+              "DocumentMoniker": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_IUN\\iunie.cpp",
+              "RelativeDocumentMoniker": "labs\\EXAM_IUN\\iunie.cpp",
+              "ToolTip": "C:\\Users\\Angi\\Desktop\\ism-sap-c-cpp\\labs\\labs\\EXAM_IUN\\iunie.cpp",
+              "RelativeToolTip": "labs\\EXAM_IUN\\iunie.cpp",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T12:22:51.152Z",
+              "EditorCaption": ""
             }
           ]
         }
